@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-blue: #00205b;
+  --light-blue: #e6f3ff;
+}
+
+body {
+  background-color: var(--primary-blue);
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.search-container {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-top: -3rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
