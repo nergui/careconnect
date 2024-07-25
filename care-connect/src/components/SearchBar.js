@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function SearchBar() {
   return (
-    <div className="container">
+    <div className="container relative z-10">
       <div className="search-container">
         <h2 className="text-2xl font-bold mb-4 text-primary-blue">Find the care you need</h2>
         <form className="flex">
@@ -14,10 +14,10 @@ export default function SearchBar() {
               className="w-full p-3 border rounded-l-full"
             />
           </div>
-          <div className="flex-grow mr-2">
+          <div className="flex-grow-0 mr-2">
             <input
               type="text"
-              placeholder="Chicago, IL"
+              defaultValue="Chicago, IL"
               className="w-full p-3 border"
             />
           </div>

@@ -17,12 +17,12 @@ export default function CategoryButtons() {
         {categories.map((category, index) => (
           <button
             key={index}
-            className="px-4 py-2 text-blue-500 font-medium hover:underline"
+            className="px-4 py-2 text-blue-300 font-medium hover:underline text-sm"
           >
             {category}
           </button>
         ))}
-        <button className="px-4 py-2 text-blue-500 font-medium hover:underline">
+        <button className="px-4 py-2 text-blue-300 font-medium hover:underline text-sm">
           + More
         </button>
       </div>
